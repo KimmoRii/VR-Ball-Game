@@ -1,0 +1,34 @@
+{
+    "name": "InputAction",
+    "maps": [
+        {
+            "name": "CustomAction",
+            "id": "6832f2de-166c-4633-98b1-e1fa2d54b2b8",
+            "actions": [
+                {
+                    "name": "Score",
+                    "type": "Button",
+                    "id": "666f2d38-5d83-4728-9ac0-4bef173f0ab3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0ff5bec6-9b7f-48bf-8656-7937b00ed28d",
+                    "path": "<XRController>{LeftHand}/{SecondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Score",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
